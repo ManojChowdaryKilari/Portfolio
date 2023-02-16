@@ -111,6 +111,7 @@ img {
   z-index: var(--z-fixed);
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+
 }
 
 .nav {
@@ -119,6 +120,7 @@ img {
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
+
 }
 
 @media screen and (max-width: 767px) {
@@ -136,6 +138,8 @@ img {
 
 .nav__item {
   margin-bottom: var(--mb-4);
+ 
+ 
 }
 
 .nav__link {
@@ -187,6 +191,7 @@ img {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+  
 }
 
 .home__data {
@@ -262,7 +267,7 @@ img {
 }
 
 .about__img img {
-  width: 200px;
+  width: 230px;
   border-radius: .5rem;
 }
 
